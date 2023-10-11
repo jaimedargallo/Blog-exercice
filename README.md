@@ -10,3 +10,15 @@ I am using the following technologies for my blog:
 To set up my blog, I followed the instructions on the Hugo website. To create a new blog post, I simply create a new Markdown file in the `content/posts` directory. To deploy my blog to Netlify, I use the `netlify deploy` command.
 
 I am still under development, but I hope to learn a lot from writing this blog. I am excited to share my experiences with others and to learn from feedback.
+
+### Useful resources
+
+- [Bard](https://bard.google.com/) - Large language model from Google AI.
+- [Netlify]https://www.netlify.com/) - A web development platform.
+- [Hugo](https://gohugo.io/) - A open-source static site generators.
+
+## Author
+
+- Frontend Mentor - [@jaimedargallo](https://www.frontendmentor.io/profile/jaimedargallo)
+- Twitter - [@jaimedargallo](https://twitter.com/jaimedargallo)
+- Github - [@jaimedargallo](https://github.com/jaimedargallo)

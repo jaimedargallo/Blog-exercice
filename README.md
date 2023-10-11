@@ -14,7 +14,7 @@ I am still under development, but I hope to learn a lot from writing this blog. 
 ### Useful resources
 
 - [Bard](https://bard.google.com/) - Large language model from Google AI.
-- [Netlify]https://www.netlify.com/) - A web development platform.
+- [Netlify](https://www.netlify.com/) - A web development platform.
 - [Hugo](https://gohugo.io/) - A open-source static site generators.
 
 ## Author

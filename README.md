@@ -16,6 +16,7 @@ I am still under development, but I hope to learn a lot from writing this blog. 
 - [Bard](https://bard.google.com/) - Large language model from Google AI.
 - [ChatGPT](https://chat.openai.com/) -  Large language model from Open AI.
 - [Dall_E](https://labs.openai.com/) -  An artificial intelligence model specializing in generating images from descriptive text.
+- [Adobe Color](https://color.adobe.com/es/create/color-wheel) - Free tool from Adobe that allows designers to create and share color palettes
 - [Netlify](https://www.netlify.com/) - A web development platform.
 - [Hugo](https://gohugo.io/) - A open-source static site generators.
 

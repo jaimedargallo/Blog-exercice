@@ -14,6 +14,8 @@ I am still under development, but I hope to learn a lot from writing this blog. 
 ### Useful resources
 
 - [Bard](https://bard.google.com/) - Large language model from Google AI.
+- [ChatGPT](https://chat.openai.com/) -  Large language model from Open AI.
+- [Dall_E](https://labs.openai.com/) -  An artificial intelligence model specializing in generating images from descriptive text.
 - [Netlify](https://www.netlify.com/) - A web development platform.
 - [Hugo](https://gohugo.io/) - A open-source static site generators.
 

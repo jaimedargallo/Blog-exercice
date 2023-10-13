@@ -191,6 +191,16 @@ body{
   margin-bottom: 1.5rem;
 }
 
+.blog .contenedor .articulos-blog .articulo .titulo-articulo .a{
+  text-decoration: none;
+  color: var(--green-color);
+}
+
+.blog .contenedor .articulos-blog .articulo .titulo-articulo .a:hover{
+  text-decoration: none;
+  color: var(--green-color);
+}
+
 .blog .contenedor .articulos-blog .articulo .categoria-articulo{
   color: var(--blue-color);
   font-size: 1rem;
@@ -205,12 +215,13 @@ body{
 }
 
 .blog .contenedor .articulos-blog .articulo .texto-articulo{
+  margin-bottom: 3rem;
   padding: 0 1.2rem;
   text-align: justify;
 }
 
 .blog .contenedor .articulos-blog .articulo .texto-articulo p{
-  margin-bottom: 1.2rem;
+  margin-bottom: 1rem;
   color: var(--green-color);
 }
 
@@ -230,8 +241,8 @@ body{
 }
 
 .blog .contenedor .articulos-blog .articulo .boton a:hover{
-  background: #7d7d7d;
-  color: #fff;
+  background: var(--violet-color);
+  color: var(--green-color);
 }
 
 /*ASIDE*/
@@ -242,7 +253,7 @@ body{
 
 .aside .widget{
   padding: 3rem;
-  margin-bottom: 20px;
+  margin-bottom: 1rem;
   border: 1px solid var(--green-color);
 }
 
@@ -252,7 +263,7 @@ body{
 }
 
 .aside .widget .autor-widget .foto-autor img{
-  width: 120px;
+  width: 10rem;
   border-radius: 50%;
 }
 

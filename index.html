@@ -1,66 +1,128 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-	<head>
-		<title>WebLog</title>
-		<meta name="description" content="Weblog">
-		<meta name="keywords" content="">
- 		<meta http-equiv="refresh" content="20"/>
-	</head>
-	<body>
-		<div id="cajaheader">
-		</div>
-		<div id="principal">
-			<header>
-				<div id="logo"></div>
-				<h1>Jaime Dargallo</h1>
-				<h2>Weblog</h2>
-				<nav>
-					<ul>
-						<li><a href="index.html">Index</a></li>
-						<li><a href="news.html">News</a></li>
-						<li><a href="aboutme.html">About Me</a></li>
-						<li><a href="contact.html">Contact</a></li>
-					</ul>
-				</nav>
-			</header>
-			<section>
-				<img src="photo/JaimeDargallo.JPG" alt="Me" style="width:50px;height:50px;">
-					<h3>A piece of my mind...</h3> 
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-			</section>
-			<aside>
-				<h5>Previous Post</h5>
-					<ul>
-						<li><a href=""><time>2019-01-01</time> / Happy New Year!</a></li>
-						<li><a href=""><time>2019-05-15</time> / How to dance "Chotis"</a></li>
-						<li><a href=""><time>2019-05-19</time> / Virginia`s Birthday</a></li>
-						<li><a href=""><time>2019-05-10</time> / Hello world!</a></li>
-					</ul>
+  <head>
+    <meta charset="utf-8">
+    <title>Jaime Dargallo Blog</title>
+    <link rel="stylesheet" href="css/estilos.css">
+  </head>
+  <body>
 
-			</aside>
-			<section>
-				<article>
-					<time>2019-05-10</time>
-					<h3>Create something from nothing</h3>
-					<h4>About HTML5</h4> 
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</article>
-				<article>
-					<time>2019-05-10</time>
-					<h3>Look pretty</h3>
-					<h4>About CSS3</h4> 
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</article>
-				<article>
-					<time>2019-05-10</time>
-					<h3>Deus Ex Machina</h3>
-					<h4>About Java script</h4> 
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-				</article>
-			</section>
-			<footer>
-				<h6>(C) 2018 - Web log </h6>
-			</footer>
-		</div>
-	</body>
+    <div class="header">
+      <div class="top-header">
+        <div class="contenedor">
+          <div class="top-menu">
+            <ul>
+              <li><a href="#">INICIO</a></li>
+              <li><a href="#">ACERCA DE</a></li>
+              <li><a href="#">CONTACTO</a></li>
+            </ul>
+          </div>
+
+          <div class="top-redes">
+            <ul>
+              <li><a href="https://twitter.com/JaimeDargallo">Twitter</a></li>
+              <li><a href="https://www.linkedin.com/in/jaimedargallo/">Linkedin</a></li>
+              <li><a href="https://github.com/jaimedargallo">Github</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="titulo-blog">
+        <div class="contenedor">
+          <h1><a href="./index.html">Jaime Dargallo Blog</a></h1>
+          <p class="subtitulo">Blog personal</p>
+        </div>
+      </div>
+
+      <div class="menu-principal">
+        <div class="contenedor">
+          <ul>
+            <li><a href="#">INICIO</a></li>
+            <li><a href="#">DESTACADOS</a></li>
+            <li><a href="#">VIAJES</a></li>
+            <li><a href="#">COMIDAS</a></li>
+            <li><a href="#">HOTELES</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="main">
+      <div class="banner">
+        <div class="contenedor">
+          <div class="banner-principal">
+            <img src="img/banner.jpg" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="blog">
+        <div class="contenedor">
+          <div class="articulos-blog">
+            <div class="articulo">
+              <p class="fecha-articulo">Enero 17 de 2017</p>
+              <h3 class="titulo-articulo">5 Tips para organizar mejor tus viajes</h3>
+              <p class="categoria-articulo">VIAJES</p>
+              <img src="img/imagen-articulo-1.jpg" alt="">
+              <div class="texto-articulo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="boton">
+                <a href="#">Seguir leyendo</a>
+              </div>
+            </div>
+
+            <div class="articulo">
+              <p class="fecha-articulo">Marzo 3 de 2017</p>
+              <h3 class="titulo-articulo">Descubriendo hoteles en grandes ciudades</h3>
+              <p class="categoria-articulo">HOTELES</p>
+              <img src="img/imagen-articulo-2.jpg" alt="">
+              <div class="texto-articulo">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+              </div>
+              <div class="boton">
+                <a href="#">Seguir leyendo</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="aside">
+            <div class="widget">
+              <div class="autor-widget">
+                <div class="foto-autor">
+                  <img src="img/avatar.jpg" alt="Foto del autor">
+                </div>
+                <div class="datos-autor">
+                  <h3 class="nombre">Jaime Dargallo</h3>
+                  <p class="profesion">Desarrollador Web</p>
+                  <p class="info"> Bienvenido! Soy un apasionado desarrollador web y en mi blog personal, quiero compartir mi viaje en el mundo de la programación y el diseño web. Así como brindar consejos y recursos útiles para aquellos que también están inmersos en este emocionante campo.</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="widget">
+              <div class="destacados-widget">
+                <h3 class="titulo-destacados">Destacados</h3>
+                <ul>
+                  <li><a href="#">Lorem ipsum dolor</a></li>
+                  <li><a href="#">Ut enim ad minim veniam</a></li>
+                  <li><a href="#">Duis aute irure dolor in</a></li>
+                  <li><a href="#">Duis aute irure</a></li>
+                  <li><a href="#">Excepteur sint occaecat cupidatat non proident</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <p>2023 (C) Todos los derechos reservados</p>
+    </div>
+
+  </body>
 </html>
